@@ -2,18 +2,18 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import Home from '../screens/Home'
 import Sobre from '../screens/Sobre'
+import Tabs from './Tabs'
 
 const Stack = createStackNavigator()
 
 export default function Navigation(){
   return(
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
+      <Stack.Navigator initialRouteName="Tabs">
         <Stack.Screen 
           name="Home" 
-          component={Home} 
+          component={Tabs} 
           options={{
             title: 'iComida',
             headerStyle: {backgroundColor: '#002984'},
