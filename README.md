@@ -10,3 +10,11 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 sudo npm i @react-navigation/stack
 sudo npm i @react-navigation/bottom-tabs
 ```
+
+## A aplicação está dividida em vários branches:
+stack - Exemplo apenas com o Stack
+bottom - Exemplo com o Stack e o bottom juntos
+
+git branch nome
+git branch -M nome
+git push -u origin nome
